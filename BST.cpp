@@ -8,7 +8,7 @@ struct node{
 };
 
 struct node* create(int data){
-    struct node *temp=new node();
+    struct node *temp=new node;
     temp->data=data;
     return temp;
 }
